@@ -1,0 +1,22 @@
+.menu-contacts {
+    display: flex;
+    margin-left: auto;
+  }
+  
+  .menu-contacts__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .menu-contacts__link {
+    display: flex;
+    align-items: center;
+    padding: 32px 0px 32px 0px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  
+  .menu-contacts__svg {
+    margin-right: 10px;
+    fill: currentColor;
+  }
